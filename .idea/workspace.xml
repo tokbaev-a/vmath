@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6028a96d-d02c-4f4c-b637-c625ba2816aa" name="Changes" comment="Passed all the vmath tests">
-      <change afterPath="$PROJECT_DIR$/lib/src/test/java/vmath/Vec2Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/main/java/vmath/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/vmath/Vec2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/test/java/vmath/LibraryTest.java" beforeDir="false" />
+    <list default="true" id="6028a96d-d02c-4f4c-b637-c625ba2816aa" name="Changes" comment="Made a skeleton of Vec">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/vmath/Vec2.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/vmath/Vec2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,6 +138,29 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="Vec2Test.creates_new_zero_vector" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":lib:test" />
+            <option value="--tests" />
+            <option value="&quot;vmath.Vec2Test.creates_new_zero_vector&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="Vec2Test.multiplies_vector_by_scalar" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -165,6 +187,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.Vec2Test (1)" />
+        <item itemvalue="Gradle.Vec2Test.creates_new_zero_vector" />
         <item itemvalue="Gradle.Vec2Test" />
         <item itemvalue="Gradle.Vec2Test.multiplies_vector_by_scalar" />
         <item itemvalue="Gradle.Vec2Test.calculates_zero_vector_magnitude" />
@@ -182,7 +205,7 @@
       <workItem from="1668037608450" duration="1992000" />
       <workItem from="1668062897361" duration="22000" />
       <workItem from="1668074905368" duration="880000" />
-      <workItem from="1668075801790" duration="531000" />
+      <workItem from="1668075801790" duration="881000" />
     </task>
     <task id="LOCAL-00001" summary="Passed all the vmath tests">
       <created>1668041222581</created>
@@ -198,7 +221,28 @@
       <option name="project" value="LOCAL" />
       <updated>1668041363273</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Configured gradle project">
+      <created>1668076470868</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668076470868</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Made a skeleton of Vec">
+      <created>1668076514015</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668076514015</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Made a skeleton of Vec">
+      <created>1668076522926</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668076522926</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +267,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Passed all the vmath tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Passed all the vmath tests" />
+    <MESSAGE value="Configured gradle project" />
+    <MESSAGE value="Made a skeleton of Vec" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made a skeleton of Vec" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
