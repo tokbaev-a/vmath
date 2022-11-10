@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6028a96d-d02c-4f4c-b637-c625ba2816aa" name="Changes" comment="Passed subtracts_two_vectors">
-      <change beforePath="$PROJECT_DIR$/lib/src/main/java/vmath/Vec2.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/vmath/Vec2.java" afterDir="false" />
-    </list>
+    <list default="true" id="6028a96d-d02c-4f4c-b637-c625ba2816aa" name="Changes" comment="Passed converts_real_param_vector_to_string" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -204,7 +202,7 @@
       <workItem from="1668037608450" duration="1992000" />
       <workItem from="1668062897361" duration="22000" />
       <workItem from="1668074905368" duration="880000" />
-      <workItem from="1668075801790" duration="1996000" />
+      <workItem from="1668075801790" duration="2613000" />
     </task>
     <task id="LOCAL-00001" summary="Passed all the vmath tests">
       <created>1668041222581</created>
@@ -255,7 +253,28 @@
       <option name="project" value="LOCAL" />
       <updated>1668077736310</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Passed multiplies_vector_by_scalar">
+      <created>1668077862661</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668077862661</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Passed calculates_dot_product_for_vectors">
+      <created>1668077946080</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668077946080</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Passed converts_real_param_vector_to_string">
+      <created>1668078043636</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1668078043636</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,7 +306,10 @@
     <MESSAGE value="Passed adds_two_vectors" />
     <MESSAGE value="Passed substracts_two_vectors" />
     <MESSAGE value="Passed subtracts_two_vectors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Passed subtracts_two_vectors" />
+    <MESSAGE value="Passed multiplies_vector_by_scalar" />
+    <MESSAGE value="Passed calculates_dot_product_for_vectors" />
+    <MESSAGE value="Passed converts_real_param_vector_to_string" />
+    <option name="LAST_COMMIT_MESSAGE" value="Passed converts_real_param_vector_to_string" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
