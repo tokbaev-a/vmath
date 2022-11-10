@@ -26,23 +26,33 @@ public class Vec2 {
     }
 
     public float mag() {
-        return 0.0f;
+        return (float) Math.sqrt(Math.pow(x, 2) + Math.pow(y, 2));
     }
 
     public Vec2 norm() {
-      return new Vec2();
+        if(x != 0) x = 1;
+        if(y != 0) y = 1;
+
+        if(x == 0 && y == 0) throw new ArithmeticException();
+        else return new Vec2(x, y);
     }
 
     public Vec2 add(Vec2 other) {
-        return new Vec2();
+        x += other.x;
+        y += other.y;
+        return new Vec2(x, y);
     }
 
     public Vec2 sub(Vec2 other) {
-        return new Vec2();
+        x -= other.x;
+        y -= other.y;
+        return new Vec2(x, y);
     }
 
     public Vec2 mul(float scalar) {
-        return new Vec2();
+        x *= scalar;
+        y *= scalar;
+        return new Vec2(x, y);
     }
 
     public float dot(Vec2 other){
