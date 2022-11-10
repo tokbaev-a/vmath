@@ -57,7 +57,8 @@ public class Vec2 {
     }
 
     public float dot(Vec2 other){
-        return 0.0f;
+        float result = (x * other.x) + (y * other.y);
+        return result;
     }
 
     @Override
