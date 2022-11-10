@@ -52,6 +52,7 @@ public class Vec2 {
     public Vec2 mul(float scalar) {
         x *= scalar;
         y *= scalar;
+
         return new Vec2(x, y);
     }
 
