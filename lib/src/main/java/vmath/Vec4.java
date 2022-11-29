@@ -60,6 +60,6 @@ public class Vec4 {
     }
 
     public String toString() {
-        return ""; // TODO
+        return "(" + x + ", " + y + ", " + z + ", " + w + ")";
     }
 }
