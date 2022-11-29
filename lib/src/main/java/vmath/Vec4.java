@@ -19,19 +19,19 @@ public class Vec4 {
     }
 
     public float x() {
-        return 0.0f; // TODO
+        return x;
     }
 
     public float y() {
-        return 0.0f; // TODO
+        return y;
     }
 
     public float z() {
-        return 0.0f; // TODO
+        return z;
     }
 
     public float w() {
-        return 0.0f; // TODO
+        return w;
     }
 
     public float mag() {
