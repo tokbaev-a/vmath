@@ -39,7 +39,8 @@ public class Vec4 {
     }
 
     public Vec4 norm() {
-        return null; // TODO
+        float norm = 1.0f/mag();
+        return new Vec4(x*norm, y*norm, z*norm, w*norm);
     }
 
     public Vec4 add(Vec4 other) {
