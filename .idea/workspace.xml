@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6028a96d-d02c-4f4c-b637-c625ba2816aa" name="Changes" comment="Passed converts_real_param_vector_to_string" />
+    <list default="true" id="6028a96d-d02c-4f4c-b637-c625ba2816aa" name="Changes" comment="Pass tests for method 'norm()' for Vec3&#10;Test:&#10;&#10;* normalizes_nonzero_vector&#10;* fails_to_normalize_zero_vector">
+      <change afterPath="$PROJECT_DIR$/lib/src/main/java/vmath/Vec3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/test/java/vmath/Vec3Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/test/java/vmath/Vec2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/test/java/vmath/Vec2Test.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +47,13 @@
         </projects_view>
       </state>
     </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
@@ -112,29 +127,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Vec2Test.calculates_zero_vector_magnitude" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":lib:test" />
-            <option value="--tests" />
-            <option value="&quot;Vec2Test.calculates_zero_vector_magnitude&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="Vec2Test.creates_new_zero_vector" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -158,7 +150,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Vec2Test.multiplies_vector_by_scalar" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Vec3Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -171,7 +163,7 @@
           <list>
             <option value=":lib:test" />
             <option value="--tests" />
-            <option value="&quot;Vec2Test.multiplies_vector_by_scalar&quot;" />
+            <option value="&quot;vmath.Vec3Test&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -181,13 +173,28 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="Vec2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vmath.lib.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vmath.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="vmath" />
+      <option name="MAIN_CLASS_NAME" value="vmath.Vec2Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Vec3Test" />
+        <item itemvalue="JUnit.Vec2Test" />
         <item itemvalue="Gradle.Vec2Test (1)" />
         <item itemvalue="Gradle.Vec2Test.creates_new_zero_vector" />
         <item itemvalue="Gradle.Vec2Test" />
-        <item itemvalue="Gradle.Vec2Test.multiplies_vector_by_scalar" />
-        <item itemvalue="Gradle.Vec2Test.calculates_zero_vector_magnitude" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +209,8 @@
       <workItem from="1668037608450" duration="1992000" />
       <workItem from="1668062897361" duration="22000" />
       <workItem from="1668074905368" duration="880000" />
-      <workItem from="1668075801790" duration="2613000" />
+      <workItem from="1668075801790" duration="3148000" />
+      <workItem from="1669721510934" duration="1383000" />
     </task>
     <task id="LOCAL-00001" summary="Passed all the vmath tests">
       <created>1668041222581</created>
@@ -274,7 +282,42 @@
       <option name="project" value="LOCAL" />
       <updated>1668078043636</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Create Vec3Test with all the tests for Vec3">
+      <created>1669722464635</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1669722464635</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Create Vec3 skeleton">
+      <created>1669722516274</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1669722516274</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Pass the 'creates_new_vector_with_args' test for Vec3">
+      <created>1669722713320</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1669722713320</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Pass the 'fails_to_create_new_nan_vector' test for Vec3">
+      <created>1669722790190</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1669722790190</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Pass tests for method 'mag()' for Vec3&#10;Test:&#10;&#10;* calculates_zero_vector_magnitude&#10;* calculates_nonzero_vector_mag">
+      <created>1669722846385</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1669722846385</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,7 +352,13 @@
     <MESSAGE value="Passed multiplies_vector_by_scalar" />
     <MESSAGE value="Passed calculates_dot_product_for_vectors" />
     <MESSAGE value="Passed converts_real_param_vector_to_string" />
-    <option name="LAST_COMMIT_MESSAGE" value="Passed converts_real_param_vector_to_string" />
+    <MESSAGE value="Create Vec3Test with all the tests for Vec3" />
+    <MESSAGE value="Create Vec3 skeleton" />
+    <MESSAGE value="Pass the 'creates_new_vector_with_args' test for Vec3" />
+    <MESSAGE value="Pass the 'fails_to_create_new_nan_vector' test for Vec3" />
+    <MESSAGE value="Pass tests for method 'mag()' for Vec3&#10;Test:&#10;&#10;* calculates_zero_vector_magnitude&#10;* calculates_nonzero_vector_mag" />
+    <MESSAGE value="Pass tests for method 'norm()' for Vec3&#10;Test:&#10;&#10;* normalizes_nonzero_vector&#10;* fails_to_normalize_zero_vector" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pass tests for method 'norm()' for Vec3&#10;Test:&#10;&#10;* normalizes_nonzero_vector&#10;* fails_to_normalize_zero_vector" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
