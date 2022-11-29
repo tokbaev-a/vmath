@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6028a96d-d02c-4f4c-b637-c625ba2816aa" name="Changes" comment="Pass tests for method 'norm()' for Vec3&#10;Test:&#10;&#10;* normalizes_nonzero_vector&#10;* fails_to_normalize_zero_vector">
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/vmath/Vec3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/test/java/vmath/Vec3Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="6028a96d-d02c-4f4c-b637-c625ba2816aa" name="Changes" comment="Merge branch 'dev' with all the Vec3 work">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/test/java/vmath/Vec2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/test/java/vmath/Vec2Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,14 +67,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Gradle.Vec2Test">
     <configuration name="Vec2Test (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -317,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669722846385</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Merge branch 'dev' with all the Vec3 work">
+      <created>1669724108259</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1669724108259</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -358,7 +361,8 @@
     <MESSAGE value="Pass the 'fails_to_create_new_nan_vector' test for Vec3" />
     <MESSAGE value="Pass tests for method 'mag()' for Vec3&#10;Test:&#10;&#10;* calculates_zero_vector_magnitude&#10;* calculates_nonzero_vector_mag" />
     <MESSAGE value="Pass tests for method 'norm()' for Vec3&#10;Test:&#10;&#10;* normalizes_nonzero_vector&#10;* fails_to_normalize_zero_vector" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pass tests for method 'norm()' for Vec3&#10;Test:&#10;&#10;* normalizes_nonzero_vector&#10;* fails_to_normalize_zero_vector" />
+    <MESSAGE value="Merge branch 'dev' with all the Vec3 work" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'dev' with all the Vec3 work" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
