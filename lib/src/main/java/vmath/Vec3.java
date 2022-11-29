@@ -11,7 +11,7 @@ public class Vec3 {
         if (Float.isNaN(x) || Float.isNaN(y) || Float.isNaN(z)) {
             throw new ArithmeticException();
         }
-        
+
         this.x = x;
         this.y = y;
         this.z = z;
@@ -30,7 +30,7 @@ public class Vec3 {
     }
 
     public float mag() {
-        return 0.0f; // TODO
+        return (float) Math.sqrt(x * x + y * y + z * z);
     }
 
     public Vec3 norm() {
