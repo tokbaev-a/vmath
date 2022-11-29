@@ -61,9 +61,7 @@ class Vec3Test {
 
     @Test
     void fails_to_normalize_zero_vector() {
-        assertThrows(ArithmeticException.class, () -> {
-            new Vec3(0.0f, 0.0f, 0.0f).norm();
-        });
+        assertThrows(ArithmeticException.class, () -> new Vec3(0.0f, 0.0f, 0.0f).norm());
     }
 
     @Test
