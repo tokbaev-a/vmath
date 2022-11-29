@@ -8,11 +8,14 @@ public class Vec4 {
     }
 
     public Vec4(float x, float y, float z, float w) {
-        // TODO
-        this.x = 0.0f;
-        this.y = 0.0f;
-        this.z = 0.0f;
-        this.w = 0.0f;
+        if (Float.isNaN(x) || Float.isNaN(y) || Float.isNaN(z) || Float.isNaN(w)) {
+            throw new ArithmeticException();
+        }
+
+        this.x = x;
+        this.y = y;
+        this.z = z;
+        this.w = w;
     }
 
     public float x() {
