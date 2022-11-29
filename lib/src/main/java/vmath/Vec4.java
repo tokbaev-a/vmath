@@ -35,7 +35,7 @@ public class Vec4 {
     }
 
     public float mag() {
-        return 0.0f; // TODO
+        return (float) Math.sqrt(x*x + y*y + z*z + w*w);
     }
 
     public Vec4 norm() {
