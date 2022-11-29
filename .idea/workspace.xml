@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6028a96d-d02c-4f4c-b637-c625ba2816aa" name="Changes" comment="Passed converts_real_param_vector_to_string" />
+    <list default="true" id="6028a96d-d02c-4f4c-b637-c625ba2816aa" name="Changes" comment="Passed converts_real_param_vector_to_string">
+      <change afterPath="$PROJECT_DIR$/lib/src/main/java/vmath/Vec3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/test/java/vmath/Vec3Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/test/java/vmath/Vec2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/test/java/vmath/Vec2Test.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +48,13 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
       <GitPushTagMode>
@@ -57,14 +72,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Gradle.Vec2Test">
     <configuration name="Vec2Test (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -103,29 +118,6 @@
             <option value=":lib:test" />
             <option value="--tests" />
             <option value="&quot;Vec2Test&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="Vec2Test.calculates_zero_vector_magnitude" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":lib:test" />
-            <option value="--tests" />
-            <option value="&quot;Vec2Test.calculates_zero_vector_magnitude&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -181,13 +173,28 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="Vec2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vmath.lib.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vmath.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="vmath" />
+      <option name="MAIN_CLASS_NAME" value="vmath.Vec2Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Vec2Test" />
         <item itemvalue="Gradle.Vec2Test (1)" />
         <item itemvalue="Gradle.Vec2Test.creates_new_zero_vector" />
         <item itemvalue="Gradle.Vec2Test" />
         <item itemvalue="Gradle.Vec2Test.multiplies_vector_by_scalar" />
-        <item itemvalue="Gradle.Vec2Test.calculates_zero_vector_magnitude" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +209,8 @@
       <workItem from="1668037608450" duration="1992000" />
       <workItem from="1668062897361" duration="22000" />
       <workItem from="1668074905368" duration="880000" />
-      <workItem from="1668075801790" duration="2613000" />
+      <workItem from="1668075801790" duration="3148000" />
+      <workItem from="1669721510934" duration="761000" />
     </task>
     <task id="LOCAL-00001" summary="Passed all the vmath tests">
       <created>1668041222581</created>
