@@ -48,7 +48,7 @@ public class Vec4 {
     }
 
     public Vec4 sub(Vec4 other) {
-        return null; // TODO
+        return new Vec4(x - other.x, y - other.y, z - other.z, w - other.w);
     }
 
     public Vec4 mul(float scalar) {
